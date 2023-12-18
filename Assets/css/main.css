@@ -4,19 +4,19 @@
 @import url(animations.css);
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background: #040c18;
 }
 
 .container-main {
-    max-width: 1400px;
-    margin: 0 auto;
-    background: #040C18;
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
 }

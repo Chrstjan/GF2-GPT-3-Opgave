@@ -3,6 +3,10 @@
   padding: 0 0.7rem;
 }
 
+.hero-section .image {
+  background-image: url(../images/Svg/AI-Stripes.svg);
+}
+
 .hero-section .image img {
   width: 100%;
   display: block;
@@ -15,7 +19,7 @@
   animation: headerImageAnimation 15s infinite forwards;
 }
 
-.hero-section .get-started p {
+.hero-section .get-started h4 {
   color: #7ea9cd;
 }
 
@@ -28,6 +32,7 @@
 .hero-section .get-started input {
   padding: 0.6rem;
   width: 40vw;
+  color: #fff;
 }
 
 .get-started input[type="text"] {
@@ -115,14 +120,35 @@
 /* Desktop */
 @media (min-width: 1300px) {
   .hero-section {
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    align-items: center;
   }
 
   .hero-section .get-started {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 500px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .hero-section .image {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .hero-section .image img {
+    height: 30vh;
+  }
+
+  .hero-section .get-started h4 {
+    word-wrap: break-word;
+  }
+
+  #getStarted input {
+    width: 100%;
   }
 
   .ai-card .ai-intro {
