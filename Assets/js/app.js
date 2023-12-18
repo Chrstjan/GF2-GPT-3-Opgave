@@ -38,6 +38,7 @@ const createVrGallery = () => {
       const modalImage = galleryImage.cloneNode(true);
 
       modalFigure.appendChild(modalImage);
+      galleryFigure.appendChild(modalFigure);
 
       modalFigure.addEventListener("click", () => {
         modalFigure.remove();

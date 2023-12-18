@@ -1,4 +1,5 @@
-.hero-section {
+.hero-section,
+.main-footer {
   background: #252c37;
   padding: 0 0.7rem;
 }
@@ -111,10 +112,17 @@
 .ai-card .about-images .balls-images {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
+  gap: 1.14rem;
   z-index: 999;
   position: absolute;
-  top: 1%;
+  top: 7%;
+  left: 49.8%;
+  transform: translate(-50%);
+}
+
+.balls-images img {
+  width: 11vw !important;
+  display: block;
 }
 
 /* Desktop */
@@ -186,7 +194,25 @@
     gap: 1rem;
   }
 
-  .ai-card .about-images figcaption img {
-    width: 15.2vw;
+  .about-images {
+    position: relative;
+  }
+
+  .ai-card .about-images .balls-images {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem;
+    left: 49.7%;
+    top: 2%;
+    transform: translate(-50%);
+  }
+
+  .ai-card .about-images .balls-images img {
+    width: 6vw;
+  }
+
+  .balls-images img:hover {
+    scale: 1.1;
   }
 }

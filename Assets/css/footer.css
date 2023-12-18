@@ -1,24 +1,28 @@
 .main-footer {
-    background: #052D56;
-    color: #81D8DD;
+  background: #052d56;
+  color: #81d8dd;
 }
 
 .main-footer .contact .so-me-icons {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0.5rem;
-    cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.so-me-icons img:hover {
+  scale: 1.2;
 }
 
 @media (min-width: 1300px) {
-    .main-footer {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-    }
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
 
-    .contact .so-me-icons {
-        gap: 0.2rem;
-        cursor: pointer;
-    }
+  .contact .so-me-icons {
+    gap: 0.2rem;
+    cursor: pointer;
+  }
 }
