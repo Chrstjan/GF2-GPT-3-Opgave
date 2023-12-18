@@ -17,4 +17,6 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     background: #040C18;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
 }

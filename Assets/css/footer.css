@@ -1,0 +1,10 @@
+.main-footer {
+    background: #052D56;
+    color: #81D8DD;
+}
+
+.main-footer .contact .so-me-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+}
