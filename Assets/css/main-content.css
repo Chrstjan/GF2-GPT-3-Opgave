@@ -1,0 +1,111 @@
+.hero-section {
+    background: #252C37;
+    padding: 0 0.7rem;
+}
+
+.hero-section .image img {
+    width: 100%;
+    display: block;
+}
+
+.hero-section .get-started h1 {
+    margin: 0;
+}
+
+.hero-section .get-started p {
+    color: #7EA9CD;
+}
+
+.hero-section .get-started form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .get-started input{
+    padding: 0.6rem;
+    width: 40vw;
+}
+
+.get-started input[type="text"] {
+    background: #052D56;
+    border: 0;
+}
+
+.get-started input::placeholder {
+    color: #3F6A95;
+}
+
+.get-started input[type="submit"] {
+    background: #F2786D;
+    border: 0;
+}
+
+.ai-card {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.ai-card header h2 {
+    color: #C58FFF;
+}
+
+.ai-card header h3 {
+    color: #81D8DD;
+}
+
+.card figure,
+.ai-card figure {
+    width: 90%;
+}
+
+.card figure img,
+.ai-card figure img {
+    width: 100%;
+}
+
+.card .text,
+.card .about-text p {
+    color: #81AFDD;
+}
+
+.card .about-text footer {
+    text-align: right;
+}
+
+.card footer a {
+    text-decoration: none;
+    color: #81D8DD;
+}
+
+#vr-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.7rem;
+}
+
+.modal-figure {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+}
+
+.modal-figure img {
+    width: 100%;
+}
+
+.ai-card .about-images {
+    background: #333;
+    position: relative;
+}
+
+.ai-card .about-images .balls-images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+}

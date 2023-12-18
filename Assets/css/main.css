@@ -3,8 +3,18 @@
 @import url(footer.css);
 @import url(animations.css);
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #040C18;
 }
