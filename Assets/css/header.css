@@ -1,0 +1,45 @@
+.main-header {
+    background: #040C18;
+}
+
+.main-header .main-nav {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.main-nav ul li {
+    list-style-type: none;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav .burger-menu {
+    display: block;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.main-nav .burger-menu .bar {
+    width: 20px;
+    height: 4px;
+    margin: 3px 0;
+    background: #fff;
+    display: block;
+}
+
+.main-nav ul li {
+    display: none;
+}
+
+.main-nav ul li.hamburger-content {
+    display: block;
+}
