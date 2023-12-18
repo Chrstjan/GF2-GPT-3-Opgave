@@ -6,10 +6,13 @@
 .hero-section .image img {
     width: 100%;
     display: block;
+    animation: headerImageAnimation 15s infinite forwards;
 }
 
 .hero-section .get-started h1 {
     margin: 0;
+    color: #3F6A95;
+    animation: headerImageAnimation 15s infinite forwards;
 }
 
 .hero-section .get-started p {
@@ -109,6 +112,31 @@
     top: 1%;
 }
 
-.balls-images img {
+@media (min-width: 1300px) {
+    .hero-section {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+    }
 
+    .hero-section .get-started {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ai-card .card .vr-article {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.2rem;
+    }
+
+    #vr-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .ai-card .about-images figcaption img {
+        width: 15.2vw;
+    }
 }

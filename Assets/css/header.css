@@ -43,3 +43,20 @@
 .main-nav ul li.hamburger-content {
     display: block;
 }
+
+@media (min-width: 1300px) {
+
+    .main-nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main-nav ul li {
+        display: block;
+    }
+
+    .main-nav .burger-menu {
+        display: none;
+    }
+}
