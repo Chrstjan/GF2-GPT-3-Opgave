@@ -1,142 +1,166 @@
 .hero-section {
-    background: #252C37;
-    padding: 0 0.7rem;
+  background: #252c37;
+  padding: 0 0.7rem;
 }
 
 .hero-section .image img {
-    width: 100%;
-    display: block;
-    animation: headerImageAnimation 15s infinite forwards;
+  width: 100%;
+  display: block;
+  animation: headerImageAnimation 15s infinite forwards;
 }
 
 .hero-section .get-started h1 {
-    margin: 0;
-    color: #3F6A95;
-    animation: headerImageAnimation 15s infinite forwards;
+  margin: 0;
+  color: #3f6a95;
+  animation: headerImageAnimation 15s infinite forwards;
 }
 
 .hero-section .get-started p {
-    color: #7EA9CD;
+  color: #7ea9cd;
 }
 
 .hero-section .get-started form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-section .get-started input{
-    padding: 0.6rem;
-    width: 40vw;
+.hero-section .get-started input {
+  padding: 0.6rem;
+  width: 40vw;
 }
 
 .get-started input[type="text"] {
-    background: #052D56;
-    border: 0;
+  background: #052d56;
+  border: 0;
 }
 
 .get-started input::placeholder {
-    color: #3F6A95;
+  color: #3f6a95;
 }
 
 .get-started input[type="submit"] {
-    background: #F2786D;
-    border: 0;
+  background: #f2786d;
+  border: 0;
 }
 
 .ai-card {
-    padding-right: 1.4rem;
+  padding-right: 1.4rem;
 }
 
 .ai-card header h2 {
-    color: #C58FFF;
+  color: #c58fff;
 }
 
 .ai-card header h3 {
-    color: #81D8DD;
+  color: #81d8dd;
 }
 
 .card figure,
 .ai-card figure {
-    width: 90%;
+  width: 90%;
 }
 
 .card figure img,
 .ai-card figure img {
-    width: 100%;
+  width: 100%;
 }
 
 .card .text,
 .card .about-text p {
-    color: #81AFDD;
+  color: #81afdd;
 }
 
 .card .about-text footer {
-    text-align: right;
+  text-align: right;
 }
 
 .card footer a {
-    text-decoration: none;
-    color: #81D8DD;
+  text-decoration: none;
+  color: #81d8dd;
 }
 
 #vr-gallery {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 0.7rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.7rem;
 }
 
 .modal-figure {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid #000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
 }
 
 .modal-figure img {
-    width: 100%;
+  width: 100%;
 }
 
 .ai-card .about-images {
-    background: #333;
-    position: relative;
+  background: #333;
+  position: relative;
 }
 
 .ai-card .about-images .balls-images {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    z-index: 999;
-    position: absolute;
-    top: 1%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  z-index: 999;
+  position: absolute;
+  top: 1%;
 }
 
+/* Desktop */
 @media (min-width: 1300px) {
-    .hero-section {
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 1rem;
-    }
+  .hero-section {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+  }
 
-    .hero-section .get-started {
-        display: flex;
-        flex-direction: column;
-    }
+  .hero-section .get-started {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .ai-card .card .vr-article {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.2rem;
-    }
+  .ai-card .ai-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    #vr-gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-    }
+  .ai-card .card .vr-article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2rem;
+  }
 
-    .ai-card .about-images figcaption img {
-        width: 15.2vw;
-    }
+  .ai-card .card .vr-article-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.2rem;
+    align-items: center;
+  }
+
+  .ai-card .card .vr-article-two img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .ai-card .card .vr-article-two .about-text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #vr-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .ai-card .about-images figcaption img {
+    width: 15.2vw;
+  }
 }
