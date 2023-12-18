@@ -1,0 +1,126 @@
+Artificial Intelligence – A Threat or a Blessing?
+Everything in excess is dangerous and so is the case with Artificial Intelligence. It is the science and engineering of making intelligent machines, that makes it significant.
+
+With the simulation of human intelligence, processes by machines that are especially computer systems include learning the acquisition of information and rules for using it.
+
+The reasoning uses rules to reach approximate or definite conclusions and self-correction.
+
+*Email Filters to Smart Replies
+
+*LinkedIn, Pinterest, Chatbots to Facebook Proactive Detection
+
+*Google Predictive Searches to Google’s Algorithm
+
+*Product Recommendations, Music Recommendations to Maps and Directions
+
+*Mobile Banking, Ride-sharing Apps to Financial Institutions Fraud Prevention everything is functioning smoothly because of AI.
+
+There is no doubt in saying that technology is an essential part of the development and growth of humans. A thin line or mistake leads to disruption or destruction.
+************************************************************
+Advantages and Disadvantages of Artificial Intelligence
+Artificial Intelligence is one of the emerging technologies which tries to simulate human reasoning in AI systems. John McCarthy invented the term Artificial Intelligence in the year 1950.
+
+He said, ‘Every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. 
+An attempt will be made to find how to make machines use language, form abstractions, and concepts, solve kinds of problems now reserved for humans, and improve themselves.’
+
+Artificial Intelligence is the ability of a computer program to learn and think. Everything can be considered Artificial intelligence if it involves a program doing something that we would normally think would rely on the intelligence of a human.
+
+The advantages of Artificial intelligence applications are enormous and can revolutionize any professional sector. Let’s see some of them
+
+
+Reduction in Human Error:
+The phrase “human error” was born because humans make mistakes from time to time. Computers, however, do not make these mistakes if they are programmed properly.
+
+With Artificial intelligence, the decisions are taken from the previously gathered information applying a certain set of algorithms. So errors are reduced and the chance of reaching accuracy with a greater degree of precision is a possibility.
+
+Example: In Weather Forecasting using AI they have reduced the majority of human error.
+
+
+Takes risks instead of Humans:
+This is one of the biggest advantages of Artificial intelligence. We can overcome many risky limitations of humans by developing an AI Robot which in turn can do the risky things for us.
+
+Let it be going to mars, defuse a bomb, explore the deepest parts of oceans, mining for coal and oil, it can be used effectively in any kind of natural or man-made disasters.
+
+Example: Have you heard about the Chernobyl nuclear power plant explosion in Ukraine? At that time there were no AI-powered robots that can help us to minimize the effect of radiation by controlling the fire in early stages, as any human went close to the core was dead in a matter of minutes. They eventually poured sand and boron from helicopters from a mere distance.
+
+AI Robots can be used in such situations where intervention can be hazardous.
+
+
+Available 24x7:
+An Average human will work for 4–6 hours a day excluding the breaks. Humans are built in such a way to get some time out for refreshing themselves and get ready for a new day of work and they even have weekly offed to stay intact with their work-life and personal life.
+
+But using AI we can make machines work 24x7 without any breaks and they don’t even get bored, unlike humans.
+
+Example: Educational Institutes and Helpline centers are getting many queries and issues which can be handled effectively using AI.
+
+
+Helping in Repetitive Jobs:
+In our day-to-day work, we will be performing many repetitive works like sending a thanking mail, verifying certain documents for errors and many more things.
+
+Using artificial intelligence we can productively automate these mundane tasks and can even remove “boring” tasks for humans and free them up to be increasingly creative.
+
+Example: In banks, we often see many verifications of documents to get a loan which is a repetitive task for the owner of the bank. Using AI Cognitive Automation the owner can speed up the process of verifying the documents by which both the customers and the owner will be benefited.
+
+
+Digital Assistance:
+Some of the highly advanced organizations use digital assistants to interact with users which saves the need for human resources. The digital assistants also used in many websites to provide things that users want. We can chat with them about what we are looking for.
+
+Some chatbots are designed in such a way that it’s become hard to determine that we’re chatting with a chatbot or a human being.
+
+Example: We all know that organizations have a customer support team that needs to clarify the doubts and queries of the customers. Using AI the organizations can set up a Voice bot or Chatbot which can help customers with all their queries. We can see many organizations already started using them on their websites and mobile applications.
+
+
+Faster Decisions:
+Using AI alongside other technologies we can make machines take decisions faster than a human and carry out actions quicker. While taking a decision human will analyze many factors both emotionally and practically but AI-powered machine works on what it is programmed and delivers the results in a faster way.
+
+Example: We all have played Chess games in Windows. It is nearly impossible to beat CPU in the hard mode because of the AI behind that game. It will take the best possible step in a very short time according to the algorithms used behind it.
+
+
+Daily Applications:
+Applications such as Apple’s Siri, Window’s Cortana, Google’s OK Google are frequently used in our daily routine whether it is for searching a location, taking a selfie, making a phone call, replying to a mail and many more.
+
+Example: Around 20 years ago, when we are planning to go somewhere we used to ask a person who already went there for the directions. But now all we have to do is say “OK Google where is Visakhapatnam”. It will show you Visakhapatnam’s location on google map and the best path between you and Visakhapatnam.
+
+
+Cons of AI
+We have already discussed the advantages of Artificial Intelligence in the real world. As we mentioned earlier, There are various advantages and disadvantages of Artificial Intelligence. . Therefore, in this section of the pros and cons of Artificial Intelligence, we will discuss all the cons of AI.
+
+Costs of Creation
+The creation of machines empowered with Artificial Intelligence is very costly. For a large-scale project, the price might reach up to millions of dollars. Thus, for a small-scale business, it is not possible to implement AI.
+
+For companies with large revenues too, the cost of the development of an AI project may be felt high due to the features, functionalities, or scope with which it is designed. The cost of development also depends on the hardware and software the companies use. Moreover, to meet the demand of a highly changing world, the hardware and software should be regularly updated.
+
+AI-powered devices are built, employing complex codes, algorithms, software, and hardware. The maintenance of these components requires great effort and costs very high. However, in the future, the cost of developing machines using AI may reduce due to the invention of advanced tools that will help create them easily.
+
+Increased Unemployment
+In the not-so-distant future, the rapid advancement of artificial intelligence has brought about unprecedented levels of automation, leading to a profound impact on the global workforce.
+
+While AI has undoubtedly revolutionized various industries, there is an unmistakable human toll associated with its progress. As machines become increasingly capable of performing complex tasks, many traditional jobs once held by hardworking individuals are now being taken over by algorithms and robots.
+
+The consequences are all too real, as individuals who once found dignity and purpose in their work are now faced with the harsh reality of unemployment. The loss of jobs not only affects livelihoods but also undermines the human connection and sense of community that is fostered through meaningful employment.
+
+Lacking Creativity
+Machines cannot become as creative as humans. Artificial Intelligence can provide functionalities to learn from data but cannot make the machines mimic the exact human brain and skills. The accuracy of the results from an AI-powered machine depends on the level of analytics used by the creator.
+
+Artificial Intelligence cannot invent anything. It can just perform the task it is programmed for and improve itself by experience. Although AI can collaborate with other technologies such as IoT, Big Data, advanced sensors, and many more to give the best automation, the smartness and creativity of AI-based machines depend on how intelligent and creative the algorithms are created by humans.
+
+Therefore, AI is bound to rules and algorithms and cannot become as creative as humans.
+
+Lacking Improvement
+AI algorithms are designed in such a way that they allow machines to learn by themselves by exploring data. Then, the machines try to improve by learning. But, any redundancy in the data may cause failures in learning, and the machines may show unpredictable results. Then, the algorithms need to be readjusted for the new set of data or learned to adapt to exceptional conditions. There may be inconsistency in the results due to the inability to process bits of information. Also, due to the lack of improvement, AI-generated results may have inaccuracy and cause great losses.
+
+No Human Replication
+Humans have created machines to save time and effort from doing non-essential repetitive tasks. AI-powered machines work on algorithms, mathematical computing, and cognitive technologies. They can become highly advanced but cannot act or think like a human.
+
+Machines are considered intelligent, but they lack judgemental power as they are not aware of ethics or morals. The machines will break down or give unpredictable results if they find a condition they are not programmed with. Hence, if we try to implement AI in places that require strong judgemental ability, it will fail.
+
+Conclusion
+These are some of the advantages and disadvantages of AI. It is no brainer that AI is an extremely powerful tool for businesses. In fact, not only business, AI can also have significant value in providing invention or breakthrough. But we also need to consider the other side of the coin.
+
+While AI is a great tool and can be revolutionary, it can also be used against us and cause maximum damage.
+
+Stay tuned with us to learn about new technologies and excel in your career!
+
+*****************************************************************
+Bard Bard can tell you the most beautiful places to visit on your Southwest U.S. road trip
+

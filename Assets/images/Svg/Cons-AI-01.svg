@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 678 170.39">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #999;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        font-family: SofiaSansCondensed-Regular, 'Sofia Sans Condensed';
+        font-size: 32px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-3, .cls-8 {
+        fill: #81afdd;
+      }
+
+      .cls-9, .cls-5 {
+        fill: #c58fff;
+      }
+
+      .cls-4, .cls-10 {
+        fill: #495;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-6, .cls-11 {
+        fill: #ffcc15;
+      }
+
+      .cls-12 {
+        fill: #999;
+      }
+
+      .cls-13 {
+        fill: #efefef;
+      }
+
+      .cls-14, .cls-7 {
+        fill: #ff8a71;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <circle class="cls-1" cx="60.39" cy="157.39" r="12.5"/>
+    <circle class="cls-8" cx="61" cy="61" r="46.68"/>
+    <path class="cls-2" d="m61,121C27.86,121,1,94.14,1,61S27.86,1,61,1s60,26.86,60,60"/>
+    <circle class="cls-12" cx="121" cy="63.41" r="5"/>
+    <circle class="cls-12" cx="138" cy="63.41" r="5"/>
+    <circle class="cls-13" cx="61" cy="61" r="27.5"/>
+    <text class="cls-3" transform="translate(47.37 71.68)"><tspan x="0" y="0">01</tspan></text>
+    <line class="cls-2" x1="60.57" y1="149.99" x2="60.57" y2="119.99"/>
+    <circle class="cls-8" cx="60.39" cy="157.39" r="9.39"/>
+    <line class="cls-2" x1="138.51" y1="63.41" x2="120.51" y2="63.41"/>
+    <circle class="cls-1" cx="197.39" cy="157.39" r="12.5"/>
+    <circle class="cls-9" cx="198" cy="61" r="46.68"/>
+    <path class="cls-2" d="m198,121c-33.14,0-60-26.86-60-60S164.86,1,198,1s60,26.86,60,60"/>
+    <circle class="cls-12" cx="258" cy="63.41" r="5"/>
+    <circle class="cls-12" cx="277" cy="63.41" r="5"/>
+    <circle class="cls-13" cx="198" cy="61" r="27.5"/>
+    <text class="cls-5" transform="translate(183.37 71.68)"><tspan x="0" y="0">02</tspan></text>
+    <line class="cls-2" x1="197.57" y1="149.99" x2="197.57" y2="119.99"/>
+    <circle class="cls-9" cx="197.39" cy="157.39" r="9.39"/>
+    <line class="cls-2" x1="277.51" y1="63.41" x2="257.51" y2="63.41"/>
+    <circle class="cls-1" cx="335.39" cy="157.39" r="12.5"/>
+    <circle class="cls-14" cx="336" cy="61" r="46.68"/>
+    <path class="cls-2" d="m336,121c-33.14,0-60-26.86-60-60S302.86,1,336,1s60,26.86,60,60"/>
+    <circle class="cls-12" cx="396" cy="63.41" r="5"/>
+    <circle class="cls-13" cx="336" cy="61" r="27.5"/>
+    <text class="cls-7" transform="translate(321.37 71.68)"><tspan x="0" y="0">03</tspan></text>
+    <line class="cls-2" x1="335.57" y1="149.99" x2="335.57" y2="119.99"/>
+    <circle class="cls-14" cx="335.39" cy="157.39" r="9.39"/>
+    <line class="cls-2" x1="415.51" y1="63.41" x2="395.51" y2="63.41"/>
+    <circle class="cls-12" cx="416" cy="63.41" r="5"/>
+    <circle class="cls-1" cx="474.39" cy="157.39" r="12.5"/>
+    <circle class="cls-11" cx="475" cy="61" r="46.68"/>
+    <path class="cls-2" d="m475,121c-33.14,0-60-26.86-60-60S441.86,1,475,1s60,26.86,60,60"/>
+    <circle class="cls-12" cx="535" cy="63.41" r="5"/>
+    <circle class="cls-13" cx="475" cy="61" r="27.5"/>
+    <text class="cls-6" transform="translate(460.37 71.68)"><tspan x="0" y="0">04</tspan></text>
+    <line class="cls-2" x1="474.57" y1="149.99" x2="474.57" y2="119.99"/>
+    <circle class="cls-11" cx="474.39" cy="157.39" r="9.39"/>
+    <line class="cls-2" x1="554.51" y1="63.41" x2="534.51" y2="63.41"/>
+    <circle class="cls-12" cx="554" cy="63.41" r="5"/>
+    <circle class="cls-1" cx="612.39" cy="157.39" r="12.5"/>
+    <circle class="cls-10" cx="613" cy="61" r="46.68"/>
+    <path class="cls-2" d="m613,121c-33.14,0-60-26.86-60-60S579.86,1,613,1s60,26.86,60,60"/>
+    <circle class="cls-12" cx="673" cy="63.41" r="5"/>
+    <circle class="cls-13" cx="613" cy="61" r="27.5"/>
+    <text class="cls-4" transform="translate(598.37 71.68)"><tspan x="0" y="0">05</tspan></text>
+    <line class="cls-2" x1="612.57" y1="149.99" x2="612.57" y2="119.99"/>
+    <circle class="cls-10" cx="612.39" cy="157.39" r="9.39"/>
+  </g>
+</svg>

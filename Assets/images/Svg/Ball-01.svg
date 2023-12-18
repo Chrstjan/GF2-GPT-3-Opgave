@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.35 93.35">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: SofiaSansCondensed-Regular, 'Sofia Sans Condensed';
+        font-size: 32px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #81afdd;
+      }
+
+      .cls-3 {
+        fill: #efefef;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <circle class="cls-2" cx="46.68" cy="46.68" r="46.68"/>
+    <circle class="cls-3" cx="46.68" cy="46.68" r="27.5"/>
+    <text class="cls-1" transform="translate(33.04 57.35)"><tspan x="0" y="0">01</tspan></text>
+  </g>
+</svg>
