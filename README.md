@@ -1,2 +1,2 @@
-# Html-Boilerplate
-A Html Boilerplate
+# GPT-3 Open AI Opgave  
+GPT-3 Opgave
