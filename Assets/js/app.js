@@ -11,6 +11,7 @@ burgerBtn.addEventListener("click", () => {
   });
 });
 
+//Gallery
 const vrGalleryArray = [
   "Image-03.jpg",
   "Image-05.jpg",
@@ -50,3 +51,44 @@ const createVrGallery = () => {
 };
 
 window.addEventListener("load", createVrGallery);
+
+//Get Started Form Validaiton
+const startForm = document.getElementById("getStarted");
+
+const emailElement = document.getElementById("email");
+const submitBtn = document.getElementById("submitBtn");
+
+const errorTextContainer = document.getElementById("errorMessage");
+
+const validateInput = (input, regEx, errorMessage) => {
+  const emailInput = input.value;
+  const isValid = regEx.test(emailInput);
+
+  if (isValid) {
+    console.log("Form valid");
+  } else {
+    displayErrorMessage(errorMessage);
+  }
+
+  return isValid;
+};
+
+const displayErrorMessage = (message) => {
+  errorTextContainer.textContent = message;
+};
+
+const emailFormValidation = (e) => {
+  const emailRegExp = /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/;
+
+  const isEmailValid = validateInput(
+    emailElement,
+    emailRegExp,
+    "Email must be valid"
+  );
+
+  if (!isEmailValid) {
+    e.preventDefault();
+  }
+};
+
+startForm.addEventListener("submit", emailFormValidation);

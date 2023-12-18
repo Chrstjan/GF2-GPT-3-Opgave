@@ -14,6 +14,10 @@
   animation: headerImageAnimation 15s infinite forwards;
 }
 
+.get-started {
+  position: relative;
+}
+
 .hero-section .get-started h1 {
   margin: 0;
   color: #3f6a95;
@@ -28,6 +32,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.get-started form span {
+  color: red;
+  position: absolute;
+  top: 75%;
+  left: 30%;
 }
 
 .hero-section .get-started input {
@@ -95,9 +106,11 @@
 .modal-figure {
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   border: 2px solid #000;
+  z-index: 9999;
+  width: 100%;
 }
 
 .modal-figure img {
@@ -192,6 +205,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+  }
+
+  .modal-figure {
+    left: 40%;
+    width: 50% !important;
+  }
+
+  .modal-figure img {
+    width: 100%;
   }
 
   .about-images {
