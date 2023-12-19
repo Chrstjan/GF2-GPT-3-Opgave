@@ -13,9 +13,11 @@ const createSignUpForm = () => {
     
     const closeForm = () => {
         signUpForm.remove();
+        isFormOpen = false;
     }
 
     const signUpForm = document.createElement("form");
+    signUpForm.classList.add("sign-up-form");
     const signUpFieldset = document.createElement("fieldset");
 
     const closeFormBtn = document.createElement("span");
@@ -69,6 +71,7 @@ const createSignUpForm = () => {
     const email = createFormInput("email", "none@fake.com", "email");
 
     const formBtnContainer = document.createElement("fieldset");
+    formBtnContainer.classList.add("btn-container");
     const resetBtn = createFormInputBtn("reset", "Reset");
     const submitBtn = createFormInputBtn("submit", "Submit");
 
@@ -88,7 +91,7 @@ const createSignUpForm = () => {
     };
 
     const displayErrorMessage = (message) => {
-        errorTextContainer.textContent = message;
+        formErrorTextContainer.textContent = message;
     }
 
     const formValidation = (e) => {
@@ -117,10 +120,17 @@ const createSignUpForm = () => {
             const passwordElement = document.createElement("p");
             passwordElement.textContent = "Password: " +password.value;
 
+            const signOut = () => {
+                singInBtn.textContent = "Sign In";
+                signUpBtn.textContent = "Sign Up";
+            }
+
             const singInBtn = document.getElementById("signIn");
             singInBtn.textContent = "Sign Out";
 
             signUpBtn.textContent = "Account: " + username.value;
+
+            singInBtn.addEventListener("click", signOut);
 
             appendChildren(signUpFieldset, [
                 closeFormBtn,
@@ -138,6 +148,7 @@ const createSignUpForm = () => {
     submitBtn.addEventListener("click", formValidation);
 
     const formErrorTextContainer = document.createElement("div");
+    formErrorTextContainer.classList.add("error-message");
 
     const appendChildren = (parent, elements) => {
         elements.forEach((element) => {
