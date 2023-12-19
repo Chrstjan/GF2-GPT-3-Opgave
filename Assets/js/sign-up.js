@@ -2,6 +2,7 @@ const formContainer = document.body;
 const signUpBtn = document.getElementById("signUp");
 
 let isFormOpen = false;
+let isSignedIn = false;
 
 const createSignUpForm = () => {
     if (isFormOpen) {
@@ -61,6 +62,9 @@ const createSignUpForm = () => {
     const passwordLabel = createFormLabel("Password", "password");
     const password = createFormInput("text", "***********", "password");
 
+    const repeatPasswordLabel = createFormLabel("Repeat Password", "repeat-password");
+    const repeatPassword = createFormInput("text", "Repeat Password", "repeat-password");
+
     const emailLabel = createFormLabel("Email", "email");
     const email = createFormInput("email", "none@fake.com", "email");
 
@@ -93,13 +97,15 @@ const createSignUpForm = () => {
         const passwordRegEx = /^(?=.*?[0-9])(?=.*?[A-Za-z]).{8,32}$/;
         const emailRegEx = /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/;
 
-        const isFNameValid = validateInput(fName, nameRegEx, "First name must be a valid name");
-        const isLNameValid = validateInput(lName, nameRegEx, "Last name must be a valid name");
-        const isUsernameValid = validateInput(username, usernamRegEx, "Username must be a valid username");
-        const isPasswordValid = validateInput(password, passwordRegEx, "Pasword must be a valid password");
-        const isEmailValid = validateInput(email, emailRegEx, "Email must be a valid email");
+        const isFNameValid = validateFormInput(fName, nameRegEx, "First name must be a valid name");
+        const isLNameValid = validateFormInput(lName, nameRegEx, "Last name must be a valid name");
+        const isUsernameValid = validateFormInput(username, usernamRegEx, "Username must be a valid username");
+        const isPasswordValid = validateFormInput(password, passwordRegEx, "Pasword must be a valid password");
+        const isPasswordRepeatValid = repeatPassword.value === password.value;
+        const isEmailValid = validateFormInput(email, emailRegEx, "Email must be a valid email");
 
-        if (isFNameValid && isLNameValid && isUsernameValid && isPasswordValid && isEmailValid) {
+        if (isFNameValid && isLNameValid && isUsernameValid && isPasswordValid && isPasswordRepeatValid && isEmailValid) {
+            
             signUpFieldset.innerHTML = "";
 
             const createdAccMessage = document.createElement("h2");
@@ -111,12 +117,18 @@ const createSignUpForm = () => {
             const passwordElement = document.createElement("p");
             passwordElement.textContent = "Password: " +password.value;
 
+            const singInBtn = document.getElementById("signIn");
+            singInBtn.textContent = "Sign Out";
+
+            signUpBtn.textContent = "Account: " + username.value;
+
             appendChildren(signUpFieldset, [
                 closeFormBtn,
                 createdAccMessage,
                 userNameElement,
-                passwordElement
+                passwordElement,
             ]);
+
         }
         else {
             e.preventDefault();
@@ -150,6 +162,8 @@ const createSignUpForm = () => {
         username,
         passwordLabel,
         password,
+        repeatPasswordLabel,
+        repeatPassword,
         emailLabel,
         email,
         formBtnContainer,
