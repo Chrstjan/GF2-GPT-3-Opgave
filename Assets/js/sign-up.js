@@ -84,10 +84,12 @@ const createSignUpForm = () => {
         const isValid = regEx.test(trimmedValue);
 
         if (isValid) {
-            console.log("nice");
+            input.classList.add("valid");
+            input.classList.remove("invalid");
         }
         else {
-            console.log("not nice");
+            input.classList.add("invalid");
+            input.classList.remove("valid");
             displayErrorMessage(errorMessage);
         }
 
