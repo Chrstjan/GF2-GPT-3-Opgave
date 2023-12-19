@@ -26,7 +26,7 @@ const createSignUpForm = () => {
 
     const closeFormBtn = document.createElement("span");
     closeFormBtn.classList.add("x-btn");
-    closeFormBtn.textContent = "<a>&times;</a>";
+    closeFormBtn.innerHTML = "<a>&times;</a>";
     closeFormBtn.addEventListener("click", closeForm);
 
     //Helper functions
@@ -56,22 +56,22 @@ const createSignUpForm = () => {
         return formBtn; 
     };
 
-    const fNameLabel = createFormLabel("First name", "fName");
+    const fNameLabel = createFormLabel("First name:", "fName");
     const fName = createFormInput("text", "John", "fName");
 
-    const lNameLabel = createFormLabel("Last name", "lName");
+    const lNameLabel = createFormLabel("Last name:", "lName");
     const lName = createFormInput("text", "Doe", "lName");
 
-    const usernameLabel = createFormLabel("Username", "username");
+    const usernameLabel = createFormLabel("Username:", "username");
     const username = createFormInput("text", "johnSlayer12");
 
-    const passwordLabel = createFormLabel("Password", "password");
+    const passwordLabel = createFormLabel("Password:", "password");
     const password = createFormInput("text", "***********", "password");
 
-    const repeatPasswordLabel = createFormLabel("Repeat Password", "repeat-password");
+    const repeatPasswordLabel = createFormLabel("Repeat Password:", "repeat-password");
     const repeatPassword = createFormInput("text", "Repeat Password", "repeat-password");
 
-    const emailLabel = createFormLabel("Email", "email");
+    const emailLabel = createFormLabel("Email:", "email");
     const email = createFormInput("email", "none@fake.com", "email");
 
     const formBtnContainer = document.createElement("fieldset");
