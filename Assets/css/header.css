@@ -5,6 +5,7 @@
 .main-header .main-nav {
     display: flex;
     flex-direction: column-reverse;
+    position: relative;
 }
 
 .main-nav ul {
@@ -26,6 +27,9 @@
     display: block;
     padding-left: 1rem;
     cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 10%;
 }
 
 .main-nav .burger-menu .bar {
@@ -36,45 +40,7 @@
     display: block;
 }
 
-/*#region burgerAnimations */
-@keyframes burgerTop {
-    0% {transform: translateY(0) rotate(0deg);}
-    100% {transform: translateY(7.5px) rotate(45deg);}
-}
-
-@keyframes burgerTopReverse {
-    0% {transform: translateY(7.5px) rotate(45deg);}
-    100% {transform: translateY(0) rotate(0deg);}
-}
-
-@keyframes burgerMiddle {
-    0% {opacity: 1;}
-    100% {opacity: 0;}
-}
-
-@keyframes burgerMiddleReverse {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-@keyframes burgerBottom {
-    0% {transform: translateY(0) rotate(0deg);}
-    100% {transform: translateY(-6px) rotate(-45deg);}
-}
-
-@keyframes burgerBottomReverse {
-    0% {transform: translateY(-6px) rotate(-45deg);}
-    100% {transform: translateY(0) rotate(0deg);}
-}
-
-/*#endregion burgerAnimations */
-
 /*#region adding burgerAnimations */
-
-.burger-menu .bar {
-    animation: burgerMiddle 0.1s 1 forwards
-}
-
 .burger-menu .bar.burgerTop {
     animation: burgerTop 0.5s 1 forwards;
 }

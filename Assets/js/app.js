@@ -22,7 +22,7 @@ burgerBtn.addEventListener("click", () => {
       "burgerBottom",
       "burgerTopReverse",
       "burgerMiddleReverse",
-      "burgerBottomReverse"
+      "burgerBottomReverse",
     );
     if (isOpen) {
       if (index === 0) {
