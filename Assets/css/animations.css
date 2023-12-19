@@ -7,6 +7,7 @@
 }
 
 /*#region burgerAnimations */
+
 @keyframes burgerTop {
    0% {transform: translateY(0) rotate(0deg);}
    100% {transform: translateY(7.5px) rotate(45deg);}
@@ -38,3 +39,8 @@
 }
 
 /*#endregion burgerAnimations */
+
+@keyframes formAppear {
+   0% {left: -100%;}
+   100% {left: 50%;}
+}

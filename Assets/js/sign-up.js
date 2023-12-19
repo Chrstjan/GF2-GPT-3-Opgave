@@ -9,6 +9,10 @@ const createSignUpForm = () => {
         return;
     }
 
+    if (isSignedIn) {
+        return;
+    }
+
     isFormOpen = true;
     
     const closeForm = () => {
@@ -123,6 +127,7 @@ const createSignUpForm = () => {
             const signOut = () => {
                 singInBtn.textContent = "Sign In";
                 signUpBtn.textContent = "Sign Up";
+                isSignedIn = false;
             }
 
             const singInBtn = document.getElementById("signIn");
@@ -131,6 +136,7 @@ const createSignUpForm = () => {
             signUpBtn.textContent = "Account: " + username.value;
 
             singInBtn.addEventListener("click", signOut);
+            isSignedIn = true;
 
             appendChildren(signUpFieldset, [
                 closeFormBtn,
