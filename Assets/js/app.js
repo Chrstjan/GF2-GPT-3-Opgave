@@ -1,6 +1,7 @@
 //Hamburger Menu
 const burgerBtn = document.getElementById("burger-menu");
 const burgerMenuContent = document.querySelectorAll(".main-list li");
+const secondaryBurgerMenuContent = document.querySelectorAll(".secondary-list li");
 
 let isOpen = false;
 burgerBtn.addEventListener("click", () => {
@@ -8,6 +9,43 @@ burgerBtn.addEventListener("click", () => {
 
   burgerMenuContent.forEach((li) => {
     li.classList.toggle("hamburger-content");
+  });
+
+  secondaryBurgerMenuContent.forEach((li) => {
+    li.classList.toggle("hamburger-content");
+  });
+
+  document.querySelectorAll(".bar").forEach((span, index) => {
+    span.classList.remove(
+      "burgerTop",
+      "burgerMiddle",
+      "burgerBottom",
+      "burgerTopReverse",
+      "burgerMiddleReverse",
+      "burgerBottomReverse"
+    );
+    if (isOpen) {
+      if (index === 0) {
+        span.classList.add("burgerTop");
+      }
+      else if (index === 1) {
+        span.classList.add("burgerMiddle");
+      }
+      else if (index === 2) {
+        span.classList.add("burgerBottom");
+      }
+    }
+    else {
+      if (index === 0) {
+        span.classList.add("burgerTopReverse");
+      }
+      else if (index === 1) {
+        span.classList.add("burgerMiddleReverse");
+      }
+      else if (index === 2) {
+        span.classList.add("burgerBottomReverse");
+      }
+    };
   });
 });
 

@@ -36,15 +36,87 @@
     display: block;
 }
 
+/*#region burgerAnimations */
+@keyframes burgerTop {
+    0% {transform: translateY(0) rotate(0deg);}
+    100% {transform: translateY(7.5px) rotate(45deg);}
+}
+
+@keyframes burgerTopReverse {
+    0% {transform: translateY(7.5px) rotate(45deg);}
+    100% {transform: translateY(0) rotate(0deg);}
+}
+
+@keyframes burgerMiddle {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes burgerMiddleReverse {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes burgerBottom {
+    0% {transform: translateY(0) rotate(0deg);}
+    100% {transform: translateY(-6px) rotate(-45deg);}
+}
+
+@keyframes burgerBottomReverse {
+    0% {transform: translateY(-6px) rotate(-45deg);}
+    100% {transform: translateY(0) rotate(0deg);}
+}
+
+/*#endregion burgerAnimations */
+
+/*#region adding burgerAnimations */
+
+.burger-menu .bar {
+    animation: burgerMiddle 0.1s 1 forwards
+}
+
+.burger-menu .bar.burgerTop {
+    animation: burgerTop 0.5s 1 forwards;
+}
+
+.burger-menu .bar.burgerTopReverse {
+    animation: burgerTopReverse 0.5s 1 forwards;
+}
+
+.burger-menu .bar.burgerMiddle {
+    animation: burgerMiddle 0.5s 1 forwards;
+}
+
+.burger-menu .bar.burgerMiddleReverse {
+    animation: burgerMiddleReverse 0.5s 1 forwards;
+}
+
+.burger-menu .bar.burgerBottom {
+    animation: burgerBottom 0.5s 1 forwards;
+}
+
+.burger-menu .bar.burgerBottomReverse {
+    animation: burgerBottomReverse 0.5s 1 forwards;
+}
+/*#endregion adding burgerAnimations*/
+
 .main-nav ul li {
     display: none;
 }
 
-.main-nav ul li.hamburger-content {
+/* Burger menu content */
+.main-nav ul li.hamburger-content,
+.main-nav .secondary-list li.hamburger-content  {
     display: block;
 }
 
 @media (min-width: 1300px) {
+
+    .main-header .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
     .main-nav ul {
         display: flex;
@@ -58,5 +130,11 @@
 
     .main-nav .burger-menu {
         display: none;
+    }
+
+    .secondary-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 }
