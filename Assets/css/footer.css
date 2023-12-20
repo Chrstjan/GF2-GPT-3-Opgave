@@ -19,6 +19,29 @@
   height: 150px;
 }
 
+/* Tablet */
+@media (min-width: 800px) {
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .main-footer p {
+    font-size: 20px;
+  }
+
+  .contact .so-me-icons img {
+    width: 5vw;
+  }
+
+  .location iframe {
+    width: 320px;
+    height: 220px;
+  }
+}
+
+/* Desktop */
 @media (min-width: 1300px) {
   .main-footer {
     display: grid;

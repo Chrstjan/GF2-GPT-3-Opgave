@@ -214,6 +214,74 @@
   display: block;
 }
 
+/* Tablet */
+@media (min-width: 800px) {
+
+  .hero-section .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+  }
+
+  .hero-section .image img {
+    width: 30vw;
+  }
+
+  .hero-section .get-started {
+    padding-top: 2rem;
+    padding-bottom: 0.9rem;
+  }
+
+  .hero-section .get-started header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ai-card .ai-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .ai-card .card .vr-article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
+  }
+
+  .ai-card .card .vr-article-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
+    align-items: center;
+  }
+
+  .ai-card .card .vr-article-two img {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .ai-card .card .vr-article-two .about-text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #vr-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .modal-figure {
+    left: 45%;
+    top: 25%;
+  }
+}
+
 /* Desktop */
 @media (min-width: 1300px) {
   .hero-section {

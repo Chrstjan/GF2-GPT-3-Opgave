@@ -76,6 +76,31 @@
     display: block;
 }
 
+/* Tablet */
+@media (min-width: 800px) {
+
+    .main-header .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main-nav ul li {
+        display: block;
+    }
+
+    .main-nav .burger-menu {
+        display: none;
+    }
+}
+
+/* Desktop */
 @media (min-width: 1300px) {
 
     .main-header .main-nav {

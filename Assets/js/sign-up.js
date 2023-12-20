@@ -63,7 +63,7 @@ const createSignUpForm = () => {
     const lName = createFormInput("text", "Doe", "lName");
 
     const usernameLabel = createFormLabel("Username:", "username");
-    const username = createFormInput("text", "johnSlayer12");
+    const username = createFormInput("text", "johnSlayer12", "username");
 
     const passwordLabel = createFormLabel("Password:", "password");
     const password = createFormInput("text", "***********", "password");
