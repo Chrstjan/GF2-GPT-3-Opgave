@@ -14,6 +14,11 @@
   scale: 1.2;
 }
 
+.location iframe {
+  width: 320px;
+  height: 150px;
+}
+
 @media (min-width: 1300px) {
   .main-footer {
     display: grid;
@@ -24,5 +29,10 @@
   .contact .so-me-icons {
     gap: 0.2rem;
     cursor: pointer;
+  }
+
+  .location iframe {
+    width: 400px;
+    height: 250px;
   }
 }

@@ -74,21 +74,21 @@
 }
 
 .btn-container input[type="reset"] {
-  background: red;
+  background: #ff0000;
 }
 
 .btn-container input[type="submit"] {
-  background: green;
+  background: #008000;
 }
 
 .sign-up-form .error-message {
-  color: red;
+  color: #ff0000;
   font-size: 16px;
   font-weight: bold;
 }
 
 .x-btn {
-  color: red;
+  color: #ff0000;
   font-weight: bolder;
   font-size: 30px;
 }
@@ -98,16 +98,16 @@
 }
 
 .valid {
-  border: 2px solid green;
+  border: 2px solid #008000;
 }
 
 .invalid {
-  border: 2px solid red;
+  border: 2px solid #ff0000;
 }
 /*#endregion signup-form  */
 
 .get-started form span {
-  color: red;
+  color: #ff0000;
   position: absolute;
   top: 75%;
   left: 30%;
@@ -173,6 +173,10 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 0.7rem;
+}
+
+#vr-gallery img {
+  cursor: pointer;
 }
 
 .modal-figure {
